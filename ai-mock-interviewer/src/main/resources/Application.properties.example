@@ -1,0 +1,6 @@
+spring.datasource.url=jdbc:mysql://localhost:3306/mock_interviewer
+spring.datasource.username=root
+spring.datasource.password=YOUR_DB_PASSWORD
+groq.api.key=YOUR_GROQ_API_KEY
+jwt.secret=YOUR_JWT_SECRET
+server.port=8080
