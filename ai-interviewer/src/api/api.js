@@ -25,3 +25,4 @@ export const getScore = (id) =>
 
 export const resumeInterview = (id) =>
   axios.get(`${BASE_URL}/interview/resume/${id}`, getAuthHeader())
+
