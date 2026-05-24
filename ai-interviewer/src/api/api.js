@@ -1,6 +1,6 @@
 import axios from 'axios'
 
-const BASE_URL = import.meta.env.VITE_API_URL || 'https://ai-mock-interviewer-production-d3c6.up.railway.app'
+const BASE_URL = 'https://ai-mock-interviewer-production-d3c6.up.railway.app'
 
 export const getAuthHeader = () => ({
   headers: {
@@ -25,4 +25,3 @@ export const getScore = (id) =>
 
 export const resumeInterview = (id) =>
   axios.get(`${BASE_URL}/interview/resume/${id}`, getAuthHeader())
-
