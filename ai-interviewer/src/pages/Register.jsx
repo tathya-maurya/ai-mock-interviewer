@@ -15,6 +15,7 @@ function Register() {
     setLoading(true)
     try {
      const res = await axios.post('https://ai-mock-interviewer-production-d3c6.up.railway.app/auth/register', { name, email, password })
+
       localStorage.setItem('token', res.data.token)
       localStorage.setItem('name', res.data.name)
       localStorage.setItem('email', res.data.email)
