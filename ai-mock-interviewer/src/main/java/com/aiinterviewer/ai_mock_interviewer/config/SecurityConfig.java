@@ -46,8 +46,8 @@ public class SecurityConfig {
         CorsConfiguration configuration = new CorsConfiguration();
         configuration.setAllowedOrigins(List.of(
                 "http://localhost:5173",
-                "https://ai-mock-interviewer-red.vercel.app",
-                "https://ai-mock-interviewer-liard-eight.vercel.app"
+                "https://stupendous-frangipane-e85063.netlify.app",
+                "https://6a1884b714ba7baac0cfb383--stupendous-frangipane-e85063.netlify.app"
         ));
         configuration.setAllowedMethods(List.of("GET", "POST", "PUT", "DELETE", "OPTIONS"));
         configuration.setAllowedHeaders(List.of("*"));
