@@ -13,7 +13,7 @@ function Login() {
     setError('')
     setLoading(true)
     try {
-     const res = await axios.post('http://localhost:8080/auth/login', { email, password })
+     const res = await axios.post('https://pretty-manifestation-production-ea02.up.railway.app/auth/login', { email, password })
       localStorage.setItem('token', res.data.token)
       localStorage.setItem('name', res.data.name)
       localStorage.setItem('email', res.data.email)

@@ -46,8 +46,7 @@ public class SecurityConfig {
         CorsConfiguration configuration = new CorsConfiguration();
         configuration.setAllowedOrigins(List.of(
                 "http://localhost:5173",
-                "https://stupendous-frangipane-e85063.netlify.app",
-                "https://6a1884b714ba7baac0cfb383--stupendous-frangipane-e85063.netlify.app"
+                "https://stupendous-frangipane-e85063.netlify.app"
         ));
         configuration.setAllowedMethods(List.of("GET", "POST", "PUT", "DELETE", "OPTIONS"));
         configuration.setAllowedHeaders(List.of("*"));
