@@ -14,7 +14,7 @@ function Register() {
     setError('')
     setLoading(true)
     try {
-    const res = await axios.post('https://pretty-manifestation-production-ea02.up.railway.app/auth/register', { name, email, password })
+    const res = await axios.post('http://localhost:8080/auth/register', { name, email, password })
 
       localStorage.setItem('token', res.data.token)
       localStorage.setItem('name', res.data.name)

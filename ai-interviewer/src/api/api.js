@@ -1,6 +1,6 @@
 import axios from 'axios'
 
-const BASE_URL = 'https://pretty-manifestation-production-ea02.up.railway.app'
+const BASE_URL = 'http://localhost:8080'
 
 export const getAuthHeader = () => ({
   headers: {
